@@ -3,7 +3,7 @@ pipeline {
 
     stages {
            
-        stage('maven2.2') {
+        stage('maven3') {
             steps {
                 echo 'Running Maven build...'
                 sh "mvn package"
