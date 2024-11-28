@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
 
@@ -7,6 +8,14 @@ pipeline {
     }
 
     stages {
+        stage('Build Docker Image') {
+            steps {
+                echo 'Building Docker image...'
+                sh 'docker build -t ${DOCKER_IMAGE}:${BUILD_NUMBER} .'
+            }
+        }
+        
+    stages {
         stage('Maven Build') {
             steps {
                 echo 'Running Maven build...'
@@ -14,17 +23,9 @@ pipeline {
             }
         }
 
-        stage('Build Docker Image') {
-            steps {
-                echo 'Building Docker image...'
-                sh "docker build -t ${DOCKER_IMAGE}:${BUILD_NUMBER} ."
-            }
-        }
-
         stage('Push Docker Image') {
             steps {
                 withCredentials([usernamePassword(credentialsId: DOCKER_CREDENTIALS, usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
-                    echo 'Logging into Docker and pushing image...'
                     sh """
                         echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
                         docker push ${DOCKER_IMAGE}:${BUILD_NUMBER}
@@ -34,4 +35,3 @@ pipeline {
         }
     }
 }
-

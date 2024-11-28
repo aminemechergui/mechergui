@@ -1,0 +1,147 @@
+-- Logs begin at Mon 2024-11-25 14:18:11 WAT, end at Thu 2024-11-28 11:39:12 WAT. --
+nov. 25 15:41:43 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 25 15:41:43 mechergui dockerd[53570]: time="2024-11-25T15:41:43.742840047+01:00" level=info msg="Starting up"
+nov. 25 15:41:43 mechergui dockerd[53570]: time="2024-11-25T15:41:43.747030692+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 25 15:41:47 mechergui dockerd[53570]: time="2024-11-25T15:41:47.568185765+01:00" level=info msg="Loading containers: start."
+nov. 25 15:41:53 mechergui dockerd[53570]: time="2024-11-25T15:41:53.362921027+01:00" level=info msg="Loading containers: done."
+nov. 25 15:41:58 mechergui dockerd[53570]: time="2024-11-25T15:41:58.068103728+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 25 15:41:58 mechergui dockerd[53570]: time="2024-11-25T15:41:58.068140051+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 25 15:41:58 mechergui dockerd[53570]: time="2024-11-25T15:41:58.068160463+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 25 15:41:58 mechergui dockerd[53570]: time="2024-11-25T15:41:58.068282210+01:00" level=info msg="Daemon has completed initialization"
+nov. 25 15:42:01 mechergui dockerd[53570]: time="2024-11-25T15:42:01.614464702+01:00" level=info msg="API listen on /run/docker.sock"
+nov. 25 15:42:01 mechergui systemd[1]: Started Docker Application Container Engine.
+nov. 25 15:43:29 mechergui dockerd[53570]: time="2024-11-25T15:43:29.423724139+01:00" level=info msg="ignoring event" container=96d472ae8221bce3fdd42622e65cbfe8e5add8dbf2921bef8562d56e0f4c02c2 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+[0;1;39m-- Reboot --[0m
+nov. 25 16:24:56 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 25 16:25:15 mechergui dockerd[1084]: time="2024-11-25T16:25:15.439566950+01:00" level=info msg="Starting up"
+nov. 25 16:25:15 mechergui dockerd[1084]: time="2024-11-25T16:25:15.577919431+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 25 16:25:18 mechergui dockerd[1084]: time="2024-11-25T16:25:18.626719253+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+nov. 25 16:25:19 mechergui dockerd[1084]: time="2024-11-25T16:25:19.087812655+01:00" level=info msg="Loading containers: start."
+nov. 25 16:25:22 mechergui dockerd[1084]: time="2024-11-25T16:25:22.974054039+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+nov. 25 16:25:23 mechergui dockerd[1084]: time="2024-11-25T16:25:23.080900247+01:00" level=info msg="Loading containers: done."
+nov. 25 16:25:24 mechergui dockerd[1084]: time="2024-11-25T16:25:24.084854806+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 25 16:25:24 mechergui dockerd[1084]: time="2024-11-25T16:25:24.084887904+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 25 16:25:24 mechergui dockerd[1084]: time="2024-11-25T16:25:24.084918459+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 25 16:25:24 mechergui dockerd[1084]: time="2024-11-25T16:25:24.189460172+01:00" level=info msg="Daemon has completed initialization"
+nov. 25 16:25:24 mechergui dockerd[1084]: time="2024-11-25T16:25:24.805535780+01:00" level=info msg="API listen on /run/docker.sock"
+nov. 25 16:25:24 mechergui systemd[1]: Started Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+nov. 27 08:57:43 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 27 08:58:00 mechergui dockerd[893]: time="2024-11-27T08:58:00.016881098+01:00" level=info msg="Starting up"
+nov. 27 08:58:00 mechergui dockerd[893]: time="2024-11-27T08:58:00.132160844+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 27 08:58:03 mechergui dockerd[893]: time="2024-11-27T08:58:03.773381772+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+nov. 27 08:58:04 mechergui dockerd[893]: time="2024-11-27T08:58:04.118563724+01:00" level=info msg="Loading containers: start."
+nov. 27 08:58:10 mechergui dockerd[893]: time="2024-11-27T08:58:10.224564291+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+nov. 27 08:58:10 mechergui dockerd[893]: time="2024-11-27T08:58:10.392245086+01:00" level=info msg="Loading containers: done."
+nov. 27 08:58:11 mechergui dockerd[893]: time="2024-11-27T08:58:11.059416316+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 27 08:58:11 mechergui dockerd[893]: time="2024-11-27T08:58:11.059464665+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 27 08:58:11 mechergui dockerd[893]: time="2024-11-27T08:58:11.059490695+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 27 08:58:11 mechergui dockerd[893]: time="2024-11-27T08:58:11.080450812+01:00" level=info msg="Daemon has completed initialization"
+nov. 27 08:58:11 mechergui systemd[1]: Started Docker Application Container Engine.
+nov. 27 08:58:11 mechergui dockerd[893]: time="2024-11-27T08:58:11.545036359+01:00" level=info msg="API listen on /run/docker.sock"
+[0;1;39m-- Reboot --[0m
+nov. 27 11:21:35 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 27 11:21:53 mechergui dockerd[973]: time="2024-11-27T11:21:53.155821165+01:00" level=info msg="Starting up"
+nov. 27 11:21:53 mechergui dockerd[973]: time="2024-11-27T11:21:53.290602070+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 27 11:21:58 mechergui dockerd[973]: time="2024-11-27T11:21:58.150244187+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+nov. 27 11:21:58 mechergui dockerd[973]: time="2024-11-27T11:21:58.502109481+01:00" level=info msg="Loading containers: start."
+nov. 27 11:22:01 mechergui dockerd[973]: time="2024-11-27T11:22:01.779967020+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+nov. 27 11:22:02 mechergui dockerd[973]: time="2024-11-27T11:22:02.106422702+01:00" level=info msg="Loading containers: done."
+nov. 27 11:22:02 mechergui dockerd[973]: time="2024-11-27T11:22:02.769443727+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 27 11:22:02 mechergui dockerd[973]: time="2024-11-27T11:22:02.770447221+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 27 11:22:02 mechergui dockerd[973]: time="2024-11-27T11:22:02.770868484+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 27 11:22:02 mechergui dockerd[973]: time="2024-11-27T11:22:02.804365569+01:00" level=info msg="Daemon has completed initialization"
+nov. 27 11:22:03 mechergui systemd[1]: Started Docker Application Container Engine.
+nov. 27 11:22:03 mechergui dockerd[973]: time="2024-11-27T11:22:03.307787969+01:00" level=info msg="API listen on /run/docker.sock"
+[0;1;39m-- Reboot --[0m
+nov. 27 14:40:15 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 27 14:40:33 mechergui dockerd[957]: time="2024-11-27T14:40:33.188903021+01:00" level=info msg="Starting up"
+nov. 27 14:40:33 mechergui dockerd[957]: time="2024-11-27T14:40:33.294987853+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 27 14:40:38 mechergui dockerd[957]: time="2024-11-27T14:40:38.902472979+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+nov. 27 14:40:42 mechergui dockerd[957]: time="2024-11-27T14:40:42.637738329+01:00" level=info msg="Loading containers: start."
+nov. 27 14:40:49 mechergui dockerd[957]: time="2024-11-27T14:40:49.137309184+01:00" level=info msg="Removing stale sandbox a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a (059fa56129e68b40d23500e75d4e0365fab57f75b5956b4c3f48580efe1da450)"
+nov. 27 14:40:49 mechergui dockerd[957]: time="2024-11-27T14:40:49.310465463+01:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint b4695d7ff669dd241de435ac9c517258f2d7772b7ef4a8082bacaf5a18c81f3d 9fb9b9b39ee09ded88dbdba822e4644f7b602320fb84b1db7fd4bed9ecbab7b8], retrying...."
+nov. 27 14:40:49 mechergui dockerd[957]: time="2024-11-27T14:40:49.609075171+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+nov. 27 14:40:49 mechergui dockerd[957]: time="2024-11-27T14:40:49.730730887+01:00" level=warning msg="error locating sandbox id a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a: sandbox a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a not found"
+nov. 27 14:40:49 mechergui dockerd[957]: time="2024-11-27T14:40:49.731001284+01:00" level=info msg="Loading containers: done."
+nov. 27 14:40:50 mechergui dockerd[957]: time="2024-11-27T14:40:50.065231918+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 27 14:40:50 mechergui dockerd[957]: time="2024-11-27T14:40:50.065882962+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 27 14:40:50 mechergui dockerd[957]: time="2024-11-27T14:40:50.066710507+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 27 14:40:50 mechergui dockerd[957]: time="2024-11-27T14:40:50.106399172+01:00" level=info msg="Daemon has completed initialization"
+nov. 27 14:40:50 mechergui dockerd[957]: time="2024-11-27T14:40:50.438460504+01:00" level=info msg="API listen on /run/docker.sock"
+nov. 27 14:40:50 mechergui systemd[1]: Started Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+nov. 27 15:13:20 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 27 15:13:35 mechergui dockerd[965]: time="2024-11-27T15:13:35.393734702+01:00" level=info msg="Starting up"
+nov. 27 15:13:35 mechergui dockerd[965]: time="2024-11-27T15:13:35.437197642+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 27 15:13:40 mechergui dockerd[965]: time="2024-11-27T15:13:40.291799671+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+nov. 27 15:13:41 mechergui dockerd[965]: time="2024-11-27T15:13:41.637862932+01:00" level=info msg="Loading containers: start."
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.147283109+01:00" level=info msg="Removing stale sandbox 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf (85fe36001562e347dd591ca0a676d11159be3059e5ca325dd7b2633a809444b4)"
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.240069987+01:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint 59eaf272b2aae0f83d41c6d57f99cef4c43c335b6be432b607b46c527c78f9d1 b65a5f6721d6994ba44237180d9c4785ded325cc0fe12160ffd10e6d465797de], retrying...."
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.432657879+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.533713556+01:00" level=warning msg="error locating sandbox id a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a: sandbox a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a not found"
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.533750657+01:00" level=warning msg="error locating sandbox id 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf: sandbox 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf not found"
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.534315658+01:00" level=info msg="Loading containers: done."
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.868495424+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.868741409+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.869000523+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 27 15:13:48 mechergui dockerd[965]: time="2024-11-27T15:13:48.951591811+01:00" level=info msg="Daemon has completed initialization"
+nov. 27 15:13:49 mechergui systemd[1]: Started Docker Application Container Engine.
+nov. 27 15:13:49 mechergui dockerd[965]: time="2024-11-27T15:13:49.491774957+01:00" level=info msg="API listen on /run/docker.sock"
+[0;1;39m-- Reboot --[0m
+nov. 27 15:26:00 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 27 15:26:16 mechergui dockerd[983]: time="2024-11-27T15:26:16.830839026+01:00" level=info msg="Starting up"
+nov. 27 15:26:16 mechergui dockerd[983]: time="2024-11-27T15:26:16.911818027+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 27 15:26:20 mechergui dockerd[983]: time="2024-11-27T15:26:20.992413037+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+nov. 27 15:26:22 mechergui dockerd[983]: time="2024-11-27T15:26:22.403547274+01:00" level=info msg="Loading containers: start."
+nov. 27 15:26:27 mechergui dockerd[983]: time="2024-11-27T15:26:27.400079747+01:00" level=info msg="Removing stale sandbox c81cbfdade6fe990fb70006af8a38516e05e7d23e423b6027aee7f7c429d36f0 (f24e0eee905662ac5e7b49541f1d47878710e83fd280089ebb840195baca6f52)"
+nov. 27 15:26:27 mechergui dockerd[983]: time="2024-11-27T15:26:27.494719483+01:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint e5423480660b0c295de38094ec7b56312ddcbc4fa5531d6d5dcf04fd1541be17 81e36cc5def8c1a3946b2a238f0202565504b6fe140d99e0eab83adcdf7319df], retrying...."
+nov. 27 15:26:27 mechergui dockerd[983]: time="2024-11-27T15:26:27.820135598+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+nov. 27 15:26:27 mechergui dockerd[983]: time="2024-11-27T15:26:27.978537036+01:00" level=warning msg="error locating sandbox id a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a: sandbox a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a not found"
+nov. 27 15:26:27 mechergui dockerd[983]: time="2024-11-27T15:26:27.978615419+01:00" level=warning msg="error locating sandbox id 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf: sandbox 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf not found"
+nov. 27 15:26:27 mechergui dockerd[983]: time="2024-11-27T15:26:27.978646820+01:00" level=warning msg="error locating sandbox id c81cbfdade6fe990fb70006af8a38516e05e7d23e423b6027aee7f7c429d36f0: sandbox c81cbfdade6fe990fb70006af8a38516e05e7d23e423b6027aee7f7c429d36f0 not found"
+nov. 27 15:26:27 mechergui dockerd[983]: time="2024-11-27T15:26:27.979954182+01:00" level=info msg="Loading containers: done."
+nov. 27 15:26:28 mechergui dockerd[983]: time="2024-11-27T15:26:28.770031384+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 27 15:26:28 mechergui dockerd[983]: time="2024-11-27T15:26:28.770063996+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 27 15:26:28 mechergui dockerd[983]: time="2024-11-27T15:26:28.770222711+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 27 15:26:28 mechergui dockerd[983]: time="2024-11-27T15:26:28.800452648+01:00" level=info msg="Daemon has completed initialization"
+nov. 27 15:26:29 mechergui dockerd[983]: time="2024-11-27T15:26:29.191540640+01:00" level=info msg="API listen on /run/docker.sock"
+nov. 27 15:26:29 mechergui systemd[1]: Started Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+nov. 27 15:48:32 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 27 15:48:45 mechergui dockerd[977]: time="2024-11-27T15:48:45.224605641+01:00" level=info msg="Starting up"
+nov. 27 15:48:45 mechergui dockerd[977]: time="2024-11-27T15:48:45.313484412+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 27 15:48:49 mechergui dockerd[977]: time="2024-11-27T15:48:49.875709923+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+nov. 27 15:48:52 mechergui dockerd[977]: time="2024-11-27T15:48:52.430269643+01:00" level=info msg="Loading containers: start."
+nov. 27 15:48:58 mechergui dockerd[977]: time="2024-11-27T15:48:58.466603134+01:00" level=info msg="Removing stale sandbox d355c338aa9ea50a39cbe70968f50f40d7a4c59a3671b340cae0b1875918082d (f20ab3107d3c2e88c028dbdb5f94222620aac062154141e50a3783b144423605)"
+nov. 27 15:48:58 mechergui dockerd[977]: time="2024-11-27T15:48:58.580330049+01:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint 350dd886eb5755264ad2381fac2e513bb14f1e0969ccc58b37dd16b21d66694c ded8d18270a8bac5823463fecabd2b12453f31d74383b4df3d825b4e5a54803b], retrying...."
+nov. 27 15:48:58 mechergui dockerd[977]: time="2024-11-27T15:48:58.878502250+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.034535264+01:00" level=warning msg="error locating sandbox id a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a: sandbox a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a not found"
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.034604855+01:00" level=warning msg="error locating sandbox id d355c338aa9ea50a39cbe70968f50f40d7a4c59a3671b340cae0b1875918082d: sandbox d355c338aa9ea50a39cbe70968f50f40d7a4c59a3671b340cae0b1875918082d not found"
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.034628790+01:00" level=warning msg="error locating sandbox id 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf: sandbox 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf not found"
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.034648748+01:00" level=warning msg="error locating sandbox id c81cbfdade6fe990fb70006af8a38516e05e7d23e423b6027aee7f7c429d36f0: sandbox c81cbfdade6fe990fb70006af8a38516e05e7d23e423b6027aee7f7c429d36f0 not found"
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.035526150+01:00" level=info msg="Loading containers: done."
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.477964458+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.479886157+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.479974853+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 27 15:48:59 mechergui dockerd[977]: time="2024-11-27T15:48:59.519944506+01:00" level=info msg="Daemon has completed initialization"
+nov. 27 15:49:00 mechergui dockerd[977]: time="2024-11-27T15:49:00.121147477+01:00" level=info msg="API listen on /run/docker.sock"
+nov. 27 15:49:00 mechergui systemd[1]: Started Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+nov. 28 09:30:58 mechergui systemd[1]: Starting Docker Application Container Engine...
+nov. 28 09:31:12 mechergui dockerd[1506]: time="2024-11-28T09:31:12.706890257+01:00" level=info msg="Starting up"
+nov. 28 09:31:12 mechergui dockerd[1506]: time="2024-11-28T09:31:12.777702052+01:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+nov. 28 09:31:17 mechergui dockerd[1506]: time="2024-11-28T09:31:17.559391325+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+nov. 28 09:31:19 mechergui dockerd[1506]: time="2024-11-28T09:31:19.165497189+01:00" level=info msg="Loading containers: start."
+nov. 28 09:31:25 mechergui dockerd[1506]: time="2024-11-28T09:31:25.663287161+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+nov. 28 09:31:25 mechergui dockerd[1506]: time="2024-11-28T09:31:25.841450179+01:00" level=warning msg="error locating sandbox id c81cbfdade6fe990fb70006af8a38516e05e7d23e423b6027aee7f7c429d36f0: sandbox c81cbfdade6fe990fb70006af8a38516e05e7d23e423b6027aee7f7c429d36f0 not found"
+nov. 28 09:31:25 mechergui dockerd[1506]: time="2024-11-28T09:31:25.841533206+01:00" level=warning msg="error locating sandbox id a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a: sandbox a05eb6aad36ae99968deaab885289616e4aa77799f34a1551cb4e42819a7910a not found"
+nov. 28 09:31:25 mechergui dockerd[1506]: time="2024-11-28T09:31:25.841567119+01:00" level=warning msg="error locating sandbox id d355c338aa9ea50a39cbe70968f50f40d7a4c59a3671b340cae0b1875918082d: sandbox d355c338aa9ea50a39cbe70968f50f40d7a4c59a3671b340cae0b1875918082d not found"
+nov. 28 09:31:25 mechergui dockerd[1506]: time="2024-11-28T09:31:25.841593199+01:00" level=warning msg="error locating sandbox id 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf: sandbox 5fbcd4b1e35688b2f275f7ef07a36e4dc6055aaf1f899be0df0f5754a64ecdbf not found"
+nov. 28 09:31:25 mechergui dockerd[1506]: time="2024-11-28T09:31:25.842883733+01:00" level=info msg="Loading containers: done."
+nov. 28 09:31:26 mechergui dockerd[1506]: time="2024-11-28T09:31:26.992212287+01:00" level=warning msg="WARNING: bridge-nf-call-iptables is disabled"
+nov. 28 09:31:26 mechergui dockerd[1506]: time="2024-11-28T09:31:26.992337361+01:00" level=warning msg="WARNING: bridge-nf-call-ip6tables is disabled"
+nov. 28 09:31:26 mechergui dockerd[1506]: time="2024-11-28T09:31:26.992629828+01:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+nov. 28 09:31:27 mechergui dockerd[1506]: time="2024-11-28T09:31:27.040919158+01:00" level=info msg="Daemon has completed initialization"
+nov. 28 09:31:27 mechergui systemd[1]: Started Docker Application Container Engine.
+nov. 28 09:31:27 mechergui dockerd[1506]: time="2024-11-28T09:31:27.417657197+01:00" level=info msg="API listen on /run/docker.sock"
