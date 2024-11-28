@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -15,7 +14,6 @@ pipeline {
             }
         }
         
-    stages {
         stage('Maven Build') {
             steps {
                 echo 'Running Maven build...'
@@ -35,3 +33,4 @@ pipeline {
         }
     }
 }
+
