@@ -17,7 +17,7 @@ pipeline {
             }
         }
        
-        stage('sonar) {
+        stage('sonar') {
             steps {
                 echo 'test sonar'
                 sh """
