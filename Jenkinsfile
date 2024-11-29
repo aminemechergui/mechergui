@@ -6,6 +6,10 @@ pipeline {
         DOCKER_CREDENTIALS = 'Docker_cr'
         SONARQUBE_URL = 'http://localhost:9000'
         SONARQUBE_TOKEN = credentials('sonarid')  
+        NEXUS_URL = 'http://127.0.0.1:8081'
+        NEXUS_REPO = 'nexus_project'
+        NEXUS_USER = 'admin'
+        NEXUS_PASSWORD = '123456'
     }
 
     stages {
@@ -41,6 +45,17 @@ pipeline {
                     """
                 }
             }
+        }
+         stage('PUSH TO NEXUS') {
+        steps {
+        script {
+                    def file = '/target/ExamThourayaS2-0.0.1-SNAPSHOT.jar'
+                    def groupId = 'com.example'
+                    def artifactId = 'my-project'
+                    def version = '1.0.0'
+                    sh """curl -u $NEXUS_USER:$NEXUS_PASSWORD --upload-file $file $NEXUS_URL/repository/$NEXUS_REPO/$groupId/$artifactId/$version/$artifactId-$version.jar"""
+                }
+                }
         }
     }
 }
