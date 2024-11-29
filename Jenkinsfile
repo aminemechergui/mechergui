@@ -4,6 +4,9 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'mechergui508/image_docker'
         DOCKER_CREDENTIALS = 'Docker_cr'
+        SONARQUBE_URL = 'http://localhost:9000'
+        SONARQUBE_TOKEN = credentials('sonarid')
+        
     }
 
     stages {
@@ -13,7 +16,15 @@ pipeline {
                 sh 'docker build -t ${DOCKER_IMAGE}:${BUILD_NUMBER} .'
             }
         }
-        
+       
+        stage('sonar) {
+            steps {
+                echo 'test sonar'
+                sh """
+                mvn sonar:sonar -Dsonar.projectKey=mecherguisonar -Dsonar.host.url=${SONARQUBE_URL} -Dsonar.login=${sonarid}
+                """
+            }
+       }
         stage('Maven Build') {
             steps {
                 echo 'Running Maven build...'
