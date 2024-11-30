@@ -43,14 +43,7 @@ pipeline {
                 }
             }
         }
-         stage('Deploy to Nexus') {
-            steps {
-                script {
-                    // Deploy artifacts to Nexus
-                    sh "${MAVEN_HOME}/bin/mvn deploy -DskipTests"
-                }
-            }
-        }
+         
       
 
     }
